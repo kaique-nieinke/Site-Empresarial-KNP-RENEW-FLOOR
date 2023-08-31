@@ -1,0 +1,797 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 673px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 59px;
+  margin-bottom: 35px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 580px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 29px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 2.25rem;
+  margin: 0 1px;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 3.125rem;
+  margin: 26px 1px 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.1875rem;
+  margin: 26px 1px 0;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 580px;
+  background-image: url("https://assets.nicepagecdn.com/4aaba16e/5674719/images/IMG_4293.jpg");
+  background-position: 50% 14.08%;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 642px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 478px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 577px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 715px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 595px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 17px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 595px;
+    background-position: 69.18% 50%;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-bottom: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1047px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 0;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 587px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1105px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 3rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 370px;
+  }
+} .u-section-2 {
+  background-image: linear-gradient(#b77d05, #81400a);
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 327px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 2.25rem;
+  width: 780px;
+  margin: 70px auto 0;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  margin: 54px auto 60px;
+  padding: 16px 51px 16px 49px;
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 301px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: 540px;
+    font-size: 1.5rem;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    width: 340px;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 1309px;
+}
+
+.u-section-3 .u-list-1 {
+  width: 593px;
+  margin: 59px auto 0 0;
+}
+
+.u-section-3 .u-repeater-1 {
+  grid-template-columns: repeat(1, 100%);
+  min-height: 1279px;
+  grid-gap: 30px;
+}
+
+.u-section-3 .u-list-item-1 {
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  background-image: none;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-3 .u-icon-1 {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-1 {
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: -70px auto 0 147px;
+}
+
+.u-section-3 .u-text-2 {
+  line-height: 1.8;
+  font-weight: 400;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-scale: 1;
+  font-size: 1rem;
+  margin: 26px 0 0 147px;
+}
+
+.u-section-3 .u-list-item-2 {
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  background-image: none;
+}
+
+.u-section-3 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-3 .u-icon-2 {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-3 {
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: -70px auto 0 147px;
+}
+
+.u-section-3 .u-text-4 {
+  line-height: 1.8;
+  font-weight: 400;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-scale: 1;
+  --animation-custom_in-translate_y: 0px;
+  font-size: 1rem;
+  margin: 26px 0 0 147px;
+}
+
+.u-section-3 .u-list-item-3 {
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  background-image: none;
+}
+
+.u-section-3 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-section-3 .u-icon-3 {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 0 0;
+}
+
+.u-section-3 .u-text-5 {
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: -70px auto 0 147px;
+}
+
+.u-section-3 .u-text-6 {
+  line-height: 1.8;
+  font-weight: 400;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-scale: 1;
+  font-size: 1rem;
+  margin: 26px 0 0 147px;
+}
+
+.u-section-3 .u-text-7 {
+  font-size: 3.75rem;
+  margin: -823px 312px 0 auto;
+}
+
+.u-section-3 .u-text-8 {
+  letter-spacing: 0px;
+  line-height: 2;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-style: italic;
+  margin: 26px 0 60px 695px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+
+  .u-section-3 .u-icon-1 {
+    padding: 15px;
+  }
+
+  .u-section-3 .u-icon-2 {
+    padding: 15px;
+  }
+
+  .u-section-3 .u-icon-3 {
+    padding: 15px;
+  }
+
+  .u-section-3 .u-text-7 {
+    margin-top: 20px;
+    font-size: 2.25rem;
+  }
+
+  .u-section-3 .u-text-8 {
+    margin-left: 495px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 1220px;
+  }
+
+  .u-section-3 .u-text-7 {
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-text-8 {
+    width: auto;
+    margin-right: 124px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 1252px;
+  }
+
+  .u-section-3 .u-list-1 {
+    width: 540px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-3 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-3 .u-text-7 {
+    width: auto;
+    font-size: 1.875rem;
+  }
+
+  .u-section-3 .u-text-8 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-list-1 {
+    width: 340px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-left: 90px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 90px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-left: 90px;
+  }
+
+  .u-section-3 .u-text-4 {
+    margin-left: 90px;
+  }
+
+  .u-section-3 .u-text-5 {
+    margin-left: 90px;
+  }
+
+  .u-section-3 .u-text-6 {
+    margin-left: 90px;
+  }
+
+  .u-section-3 .u-text-7 {
+    font-size: 1.5rem;
+  }
+}.u-section-4 .u-sheet-1 {
+  min-height: 738px;
+}
+
+.u-section-4 .u-layout-wrap-1 {
+  width: 957px;
+  margin: 90px auto 60px;
+}
+
+.u-section-4 .u-layout-cell-1 {
+  min-height: 612px;
+}
+
+.u-section-4 .u-container-layout-1 {
+  padding: 0 30px 30px;
+}
+
+.u-section-4 .u-icon-1 {
+  width: 108px;
+  height: 108px;
+  background-image: none;
+  color: rgb(255, 255, 255) !important;
+  margin: 0 auto 0 1px;
+  padding: 26px;
+}
+
+.u-section-4 .u-text-1 {
+  font-weight: 700;
+  margin: 54px 22px 0 1px;
+}
+
+.u-section-4 .u-text-2 {
+  margin: 25px 1px 0;
+}
+
+.u-section-4 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 29px auto 0;
+  padding: 15px 53px 17px 52px;
+}
+
+.u-section-4 .u-image-1 {
+  min-height: 534px;
+  background-image: url("https://assets.nicepagecdn.com/4aaba16e/5674719/images/pavimento-parquet-de-madeira-min.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-container-layout-2 {
+  padding: 0;
+}
+
+.u-section-4 .u-rotation-parent-1 {
+  width: 537px;
+  height: 537px;
+  margin: -16px -37px;
+}
+
+.u-section-4 .u-image-2 {
+  width: 380px;
+  height: 380px;
+  transform-origin: center center 0px;
+  position: relative;
+  top: 79px;
+  left: 79px;
+  transform: rotate(315deg);
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 663px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    width: 940px;
+    margin-top: 80px;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 601px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-right: 14px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-4 .u-image-1 {
+    min-height: 525px;
+  }
+
+  .u-section-4 .u-rotation-parent-1 {
+    width: 455px;
+    height: 455px;
+    margin: -21px auto 0 -42px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 539px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-4 .u-image-1 {
+    min-height: 550px;
+  }
+
+  .u-section-4 .u-rotation-parent-1 {
+    width: 382px;
+    height: 382px;
+    margin-top: 0;
+    margin-left: -18px;
+    margin-right: -18px;
+  }
+
+  .u-section-4 .u-image-2 {
+    width: 270px;
+    height: 270px;
+    top: 56px;
+    left: 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 994px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 171px;
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-image-1 {
+    min-height: 437px;
+  }
+
+  .u-section-4 .u-rotation-parent-1 {
+    width: 424px;
+    height: 424px;
+    margin: -8px auto;
+  }
+
+  .u-section-4 .u-image-2 {
+    width: 300px;
+    height: 300px;
+    top: 62px;
+    left: 62px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 616px;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-4 .u-image-1 {
+    min-height: 275px;
+  }
+
+  .u-section-4 .u-rotation-parent-1 {
+    width: 311px;
+    height: 311px;
+    margin-bottom: -36px;
+  }
+
+  .u-section-4 .u-image-2 {
+    width: 220px;
+    height: 220px;
+    top: 46px;
+    left: 46px;
+  }
+} .u-section-5 {
+  background-image: url("https://assets.nicepagecdn.com/4aaba16e/5674719/images/conceito-de-madeira-da-textura-do-papel-de-parede-do-fundo-do-material-min.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-5 .u-sheet-1 {
+  min-height: 776px;
+}
+
+.u-section-5 .u-layout-wrap-1 {
+  margin-top: 57px;
+  margin-bottom: 60px;
+}
+
+.u-section-5 .u-layout-cell-1 {
+  min-height: 656px;
+}
+
+.u-section-5 .u-container-layout-1 {
+  padding: 30px 29px 16px;
+}
+
+.u-section-5 .u-text-1 {
+  font-size: 1rem;
+  margin: 10px 1px 0;
+}
+
+.u-section-5 .u-text-2 {
+  margin: 13px 1px 0;
+}
+
+.u-section-5 .u-form-1 {
+  height: 502px;
+  width: 505px;
+  margin: 30px auto 0;
+}
+
+.u-section-5 .u-label-1 {
+  font-weight: 700;
+}
+
+.u-section-5 .u-input-1 {
+  font-size: 1rem;
+}
+
+.u-section-5 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-5 .u-label-2 {
+  font-weight: 700;
+}
+
+.u-section-5 .u-input-2 {
+  font-size: 1rem;
+}
+
+.u-section-5 .u-label-3 {
+  font-weight: 700;
+}
+
+.u-section-5 .u-input-3 {
+  font-size: 1rem;
+}
+
+.u-section-5 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-5 .u-label-4 {
+  font-weight: 700;
+}
+
+.u-section-5 .u-input-4 {
+  font-size: 1rem;
+}
+
+.u-section-5 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+  width: 100%;
+  font-weight: 700;
+  padding: 20px 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 707px;
+  }
+
+  .u-section-5 .u-layout-cell-1 {
+    min-height: 541px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-5 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-5 .u-form-1 {
+    width: 412px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 266px;
+  }
+
+  .u-section-5 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-5 .u-form-1 {
+    width: 302px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 366px;
+  }
+
+  .u-section-5 .u-layout-cell-1 {
+    min-height: 655px;
+  }
+
+  .u-section-5 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-5 .u-form-1 {
+    height: 474px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+}
