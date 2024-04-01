@@ -31,6 +31,55 @@
   <meta property="og:type" content="website">
   <link rel="canonical" href="/">
   <meta data-intl-tel-input-cdn-path="intlTelInput/">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      position: relative;
+      min-height: 100vh; /* Adiciona altura mínima para ocupar toda a altura da janela de visualização */
+    }
+
+    .go-top-btn-container {
+      display: none;
+      position: fixed; /* Altera a posição para fixa */
+      bottom: 20px; /* Ajusta a distância do botão em relação ao fundo da página */
+      right: 20px; /* Ajusta a distância do botão em relação à borda direita da página */
+    }
+
+    .go-top-btn-container a {
+      font-size: 2rem;
+      line-height: 1.75rem;
+      background-color: transparent; /* Cor de fundo do botão */
+      color: #ffffff; /* Cor do texto do botão */
+      padding: 10px 20px; /* Espaçamento interno do botão */
+      border-radius: 5px; /* Borda arredondada */
+    
+    }
+
+    .go-top-btn-container a:hover {
+      background-color: transparent; /* Cor de fundo do botão ao passar o mouse */
+    }
+
+     /* Adiciona a animação de piscar */
+    .blink {
+      animation: blink-animation 0.3s steps(5, start) infinite;
+      -webkit-animation: blink-animation 0.3s steps(5, start) infinite;
+    }
+
+    @keyframes blink-animation {
+      to {
+        text-decoration: underline red; /* Sublinhar e mudar a cor para vermelho */
+      }
+    }
+
+    @-webkit-keyframes blink-animation {
+      to {
+        text-decoration: underline red; /* Sublinhar e mudar a cor para vermelho */
+      }
+    }
+  </style>
 </head>
 
 <body
@@ -1548,9 +1597,32 @@
         autorizada deste conteúdo, no todo ou em parte, é estritamente proibida e sujeita a ações legais.
       </p>
     </div>
-
     </section>
-
+    <aside class="go-top-btn-container" id="goTopBtn">
+      <a href="#top" onclick="blinkButton()">🔝</a>
+    </aside>
+    
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.querySelector(".go-top-btn-container").style.display = "block"; /* Mostra o botão quando a página é rolada para baixo */
+        } else {
+          document.querySelector(".go-top-btn-container").style.display = "none"; /* Oculta o botão quando a página é rolada para o topo */
+        }
+      }
+    
+      function blinkButton() {
+        var button = document.querySelector(".go-top-btn-container a");
+        button.classList.add("blink");
+    
+        // Remova a classe blink após 300ms (a duração da animação)
+        setTimeout(function() {
+          button.classList.remove("blink");
+        }, 200);
+      }
+    </script>
 </body>
 
 </html>

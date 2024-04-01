@@ -30,8 +30,56 @@
   <meta property="og:title" content="SOBRE">
   <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/">
-</head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
+    body {
+      position: relative;
+      min-height: 100vh; /* Adiciona altura mínima para ocupar toda a altura da janela de visualização */
+    }
+
+    .go-top-btn-container {
+      display: none;
+      position: fixed; /* Altera a posição para fixa */
+      bottom: 20px; /* Ajusta a distância do botão em relação ao fundo da página */
+      right: 20px; /* Ajusta a distância do botão em relação à borda direita da página */
+    }
+
+    .go-top-btn-container a {
+      font-size: 2rem;
+      line-height: 1.75rem;
+      background-color: transparent; /* Cor de fundo do botão */
+      color: #ffffff; /* Cor do texto do botão */
+      padding: 10px 20px; /* Espaçamento interno do botão */
+      border-radius: 5px; /* Borda arredondada */
+    
+    }
+
+    .go-top-btn-container a:hover {
+      background-color: transparent; /* Cor de fundo do botão ao passar o mouse */
+    }
+
+     /* Adiciona a animação de piscar */
+    .blink {
+      animation: blink-animation 0.3s steps(5, start) infinite;
+      -webkit-animation: blink-animation 0.3s steps(5, start) infinite;
+    }
+
+    @keyframes blink-animation {
+      to {
+        text-decoration: underline red; /* Sublinhar e mudar a cor para vermelho */
+      }
+    }
+
+    @-webkit-keyframes blink-animation {
+      to {
+        text-decoration: underline red; /* Sublinhar e mudar a cor para vermelho */
+      }
+    }
+  </style>
+</head>
 <body class="u-body u-xl-mode" data-lang="pt">
   <header class="u-clearfix u-header u-header" id="sec-d51c">
     <div class="u-clearfix u-sheet u-sheet-1">
@@ -128,7 +176,7 @@
   <section class="u-align-center u-clearfix u-gradient u-section-2" id="sec-19fa">
     <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
       <h2 class="u-text u-text-white u-text-1"> Precisa de profissionais para seu próximo projeto?</h2>
-      <a href="https://nicepage.com/wysiwyg-html-editor"
+      <a href="http://wa.me/message/6BBG6XEJPGPVN1"
         class="u-active-white u-border-active-black u-border-hover-black u-border-none u-btn u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-custom-color-3 u-text-active-black u-text-black u-text-hover-white u-btn-1">contacte-nos</a>
     </div>
   </section>
@@ -391,7 +439,30 @@
         autorizada deste conteúdo, no todo ou em parte, é estritamente proibida e sujeita a ações legais.
       </p>
     </div>
-
+    <aside class="go-top-btn-container" id="goTopBtn">
+      <a href="#top" onclick="blinkButton()">🔝</a>
+    </aside>
+    
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.querySelector(".go-top-btn-container").style.display = "block"; /* Mostra o botão quando a página é rolada para baixo */
+        } else {
+          document.querySelector(".go-top-btn-container").style.display = "none"; /* Oculta o botão quando a página é rolada para o topo */
+        }
+      }
+    
+      function blinkButton() {
+        var button = document.querySelector(".go-top-btn-container a");
+        button.classList.add("blink");
+    
+        // Remova a classe blink após 300ms (a duração da animação)
+        setTimeout(function() {
+          button.classList.remove("blink");
+        }, 200);
+      }
+    </script>
 </body>
-
 </html>
